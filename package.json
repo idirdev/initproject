@@ -1,0 +1,22 @@
+{
+  "name": "@idirdev/initproject",
+  "version": "1.0.0",
+  "description": "Scaffold new projects from built-in templates",
+  "main": "src/index.js",
+  "author": "idirdev",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/idirdev/initproject.git"
+  },
+  "keywords": [],
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "scripts": {
+    "test": "node --test tests/"
+  },
+  "bin": {
+    "initproject": "bin/cli.js"
+  }
+}
